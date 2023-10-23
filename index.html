@@ -6,10 +6,12 @@
   <a-scene embedded arjs>
     <!-- create your content here. just a box for now -->
     <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-    
+
+  <a-text value="Test 1" rotation="270 90 270" position='0.5 0.5 0.5' ></a-text>
+      
   <!-- define your gltf asset -->
   <a-assets>
-    <a-asset-item id="gourd" src="https://acz997.github.io/hostet-assets/gourd.gltf" position='0 0.5 0' scale='0.1 0.1 0.1' </a-asset-item>
+    <a-asset-item id="gourd" src="https://acz997.github.io/hostet-assets/gourd.gltf" rotation='90 180 0' position='0 0.5 0' scale='0.1 0.1 0.1' </a-asset-item>
   </a-assets>
   <!-- use your gltf model -->
   <a-entity gltf-model="#gourd"></a-entity>
